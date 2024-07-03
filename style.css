@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#navbar {
+  position: relative;
+}
+.home-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+/* Ensure the footer stays at the bottom */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 100vh;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling for the footer */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0;
+  }
+}
+/* Add custom styles */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content {
+  flex: 1;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+.quiz-section,
+.feedback-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.quiz-section .card,
+.feedback-section .card {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Responsive styling */
+@media (max-width: 768px) {
+  .quiz-section,
+  .feedback-section {
+    padding: 20px 10px;
+  }
+}
+/* Hero Section Styles */
+.hero-section {
+  position: relative;
+  min-height: 80vh;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption {
+    padding: 15px;
+  }
+  .carousel-caption h5 {
+    font-size: 1.25rem;
+  }
+  .carousel-caption p {
+    font-size: 0.875rem;
+  }
+}
+/* Custom CSS for the Back to Home Button */
+
+/* Adjust button padding and margin */
+.btn-dark-green {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #006400; /* Dark green background color */
+  border-color: #006400; /* Dark green border color */
+}
+
+/* Hover effect */
+.btn-dark-green:hover {
+  background-color: #008000; /* Darker green background color on hover */
+  border-color: #008000; /* Darker green border color on hover */
+  color: #fff; /* Text color on hover */
+}
+/* General styles for the contact section */
+
+.contact-section {
+  padding: 80px 0; /* Adjust padding as needed */
+  background-color: #f8f9fa; /* Light background color */
+  text-align: center;
+}
+
+.contact-section h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem; /* Larger font size for heading */
+}
+
+.contact-section p {
+  margin-bottom: 40px;
+  color: #6c757d; /* Darker text color */
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section .form-label {
+  font-weight: bold;
+}
+
+.contact-section .btn-primary {
+  width: 100%; /* Full width button */
+  margin-top: 20px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40; /* Dark background color for footer */
+  color: #fff; /* Light text color */
+  padding: 20px 0;
+}
